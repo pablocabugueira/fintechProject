@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex {
+    width: 40%;
+    min-height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.my-button {
+    min-width: 160px;
+}
+
+/* Media Queries */
+
+@media (max-width: 970px) {
+    .flex {
+        min-width: 80%;
+        min-height: 50%;
+    }
+}
+
+@media (max-width: 470px) {
+    .flex {
+        min-width: 90%;
+        min-height: 30%;
+    }
+}
